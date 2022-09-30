@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background-color: black;
+    font-family: 'Poppins';
+	font-weight: 200;
+}
+
+.container-cart {
+    background: black;
+    min-height: 80vh;
+    vertical-align: middle;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold
+}
+
+.navbar {
+    background:#0E205F;
+    width: 100%;
+    height: 100%;
+    z-index:100;color:#000;
+}
+
+.profile{
+    width:60px; 
+    height: 60px; 
+    margin:17px 10% 20px 1.7%; 
+    position: absolute;
+}
+.text-name{
+    position: absolute; 
+    margin: 35px 10% 20px 98px; 
+    font-weight: 500; font-size: large; 
+    font-family: 'Poppins';
+    color: black;
+    text-decoration: none;
+}
+.navbar li a {
+    color:#D67B22;
+}
+#top {
+    
+    background:#1F1B1B;
+}
+#searchbox {
+    background:#FF0000;
+    overflow:hidden;
+}
+.searchbar{
+    width:50%; 
+    height: 55px; 
+    margin:20px 25% 20px 30%; 
+    font-family: 'Poppins';
+}
+
+.cart1 {
+    margin-right: 40px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+/* .btn{
+    border: none;
+    border-radius: 20px;
+    background-color: #FF0000;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+} */
+.btn:hover{
+    background-color: #ff4d4d;
+    color: white;
+}
+.btn:active {
+    background-color:#ff4d4d;
+    color: white;
+    transform: translateY(4px);
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: hsla(5, 76%, 62%, .8)
+}
+
+.js .cd-top--fade-out {
+    opacity: .5
+}
+
+.js .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1
+}
+
+.js .cd-top {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s, background-color .3s
+}
+
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    bottom: var(--cd-back-to-top-margin);
+    right: 20px;
+    right: var(--cd-back-to-top-margin);
+    display: inline-block;
+    height: 40px;
+    height: var(--cd-back-to-top-size);
+    width: 40px;
+    width: var(--cd-back-to-top-size);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .05) !important;
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+    background-color: hsla(5, 76%, 62%, .8);
+    background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+}
+
+@media(max-width:767px){
+    .btn{
+        font-size: 10px;
+        margin-left: 30px;
+        padding: 8px;
+    }
+}
+

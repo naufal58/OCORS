@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    background-color: black;
+    font-family: 'Poppins';
+	font-weight: 200;
+}
+
+.container-cart {
+    background: black;
+    min-height: 80vh;
+    vertical-align: middle;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold
+}
+
+.navbar {
+    background:#0E205F;
+    width: 100%;
+    height: 100%;
+    z-index:100;color:#000;
+}
+
+.profile{
+    width:60px; 
+    height: 60px; 
+    margin:17px 10% 20px 1.7%; 
+    position: absolute;
+}
+.text-name{
+    position: absolute; 
+    margin: 35px 10% 20px 98px; 
+    font-weight: 500; font-size: large; 
+    font-family: 'Poppins';
+    color: black;
+    text-decoration: none;
+}
+.navbar li a {
+    color:#D67B22;
+}
+#top {
+    
+    background:#1F1B1B;
+}
+#searchbox {
+    background:#FF0000;
+    overflow:hidden;
+}
+.searchbar{
+    width:50%; 
+    height: 55px; 
+    margin:20px 25% 20px 30%; 
+    font-family: 'Poppins';
+}
+
+.cart1 {
+    margin-right: 40px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+#header {
+    margin-top:20px;
+}
+.book-block {
+    margin-top:20px;
+    padding:5px;
+    border-radius:10px;
+    color: black;
+    text-align: center;
+}
+
+.main{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar{
+    background-color: #1F1B1B;
+    color: white;
+    height: 98.5%;
+}
+
+.sidebar a{
+    margin-left: 10px;
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
