@@ -1,0 +1,16 @@
+OCORS Admin :
+User : Admin
+Pass : admin123
+
+Ocors Akun Biasa :
+User : Test123
+Pass : test123
+
+User : Akun1234
+Pass : aku1234
+
+Atau tinggal register akun sendiri
+
+Paypal Sandbox Account :
+email 	: sb-8pyxu6302788@personal.example.com
+pass	: Hm{'@=9'
